@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1F2937;
+    color: white;
+    font-family: karla, sans-serif;
+}
+.line, .result,  {
+    /* margin: 0 10%; */
+}
+
+.title{
+    
+}
+
+h1{
+    font-size: 2.1rem;
+    margin-bottom: 1px;
+}
+p{
+    margin-top: 1px;
+}
+
+button{
+    background-color: green;
+    color: white;
+    margin: 0 auto;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 5px;
+    margin-bottom: 3rem;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    max-width: 480px;
+    margin: 4rem auto;
+
+}
+
+.line{
+    background-color: white;
+    height: 1px;
+    margin-bottom: 1rem;
+}
+.result{
+    display: flex;
+    justify-content: space-between;
+}
+#password-one, #password-two {
+    background-color: #273549;
+    border-radius: 5px;
+    padding: 1rem;
+    color: white;
+    width: 150px;
+}
+
+@media(max-width: 480px){
+    .result{
+        max-width: 480px;
+        margin: 0 auto;
+    }
+    .container{
+        margin: 1.5rem;
+    }
+}
+@media(max-width: 460px){
+    .container{
+        margin: 1.5rem;
+    }
+    .result{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        
+    }
+}
